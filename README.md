@@ -606,7 +606,7 @@ export function getUserInfo(params) {
 // 请求接口
 import { getUserInfo } from '@/api/user.js'
 
-const params = { user: 'sunnie' }
+const params = { user: 'test' }
 getUserInfo(params)
   .then(() => {})
   .catch(() => {})
@@ -1099,8 +1099,3 @@ Vscode setting.json 设置
 ```
 
 [▲ 回顶部](#top)
-
-# 鸣谢 ​
-
-[vue-cli4-config](https://github.com/staven630/vue-cli4-config)  
-[vue-element-admin](https://github.com/PanJiaChen/vue-element-admin)
